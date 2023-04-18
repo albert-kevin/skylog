@@ -16,6 +16,8 @@ df.to_csv("../../data/bronze/input_backup_" + datetime.now().strftime("%d%b%Y"),
 # Create a zip file to store the Excel files
 path = f"../../data/silver/"
 zip_filename = f"{path}{datetime.now().strftime('%d%b%Y')}_Vluchtlogboeken.zip"
+# Group data by person
+grouped = df.groupby("Persoon")
 with zipfile.ZipFile(zip_filename, 'w') as zip_file:
 
     # Loop over each person and create a separate Excel file for their data
