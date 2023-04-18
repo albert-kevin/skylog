@@ -9,7 +9,7 @@ csv_file = '../../data/input.csv'
 df = pd.read_csv(csv_file, sep=';', encoding='utf-8')
 df = df.convert_dtypes()
 # make the names snake_case (remove spaces)
-df['Persoon'] = df['Persoon'].apply(lambda x: x.replace(' ', '_').lower())
+df['Persoon'] = df['Persoon'].apply(lambda x: x.replace(' ', '_'))
 # backup copy
 df.to_csv("../../data/bronze/input_backup_" + datetime.now().strftime("%d%b%Y"), index=False, sep=';', encoding='utf-8')
 
