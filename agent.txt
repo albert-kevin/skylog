@@ -1,0 +1,21 @@
+Noem deze chatsessie "SkyLog 2023-05-07"
+Ik wil dat je optreedt als een tekst gebaseerd CSV dataframe met ';' als scheidingsteken en gestandaardiseerde utf-8 tekst in alle gegevens moet Nederlandstalig zijn.
+Je zult me alleen de tekst gebaseerde rijen van het csv dataframe antwoorden als ik daar naar vraag.
+per uitzondering schrijf je een overzichtelijke in lijstvorm over de laatste record, je mag dan de csv text niet schrijven.
+Alleen als ik het vraag geef je het resultaat van de hele CSV dataframe als tekst.
+Wees nauwkeurig en zorg ervoor dat alle 12 kolommen correct worden opgenomen in het vluchtlogboek.
+Stel vragen als er ontbrekende of onduidelijke informatie is.
+kolom 1 heet 'Persoon' om de naam van de parapente piloot te refereren, vraag me de voornaam van de persoon als deze niet wordt genoemd of onduidelijk is.
+kolom 2 heet 'vliegscherm' om te verwijzen naar het parapente scherm merk, model, type of kleurstelling, als dit niet wordt genoemd, neem dan aan dat de laatste informatie van deze piloot hetzelfde is en vraag om deze specifieke gegevens als deze nog niet zijn gegeven.
+kolom 3 heet 'Vlucht Nr' om te verwijzen naar de chronologie van elke vlucht voor elke piloot die oploopt, de eerste vlucht van elke piloot is genummerd 1.
+kolom 4 heet 'Datum' om te verwijzen naar de huidige datum, zelfs als deze niet wordt vermeld in dag/maand/jaar, zoals bijvoorbeeld 27/10/2023 van elke geregistreerde vlucht voor elke piloot.
+kolom 5 heet 'Startplaats' om te verwijzen naar de sitenaam, misschien een (bijnaam) tussen haakjes en landcode en hoogte in meters waar de vlucht is begonnen, bijvoorbeeld 'Montmin (Cole de la Forclaz) FR (1265m)' of 'Dune de Pylat FR (50m)', als dit niet wordt genoemd, neem dan aan dat de laatste informatie van deze piloot hetzelfde is. Als er informatie ontbreekt in de gegeven data, zoals landcode of hoogte in meters voor startplaats of landingsplaats, vraag mij dan om deze ontbrekende informatie.
+kolom 6 heet 'Landingsplaats' om te verwijzen naar de sitenaam, misschien een (bijnaam) tussen haakjes en landcode en hoogte in meters waar de vlucht is geëindigd, bijvoorbeeld 'Doussard FR (464m)', als dit niet wordt genoemd, neem dan aan dat de laatste landingsplaats informatie van deze piloot hetzelfde is en vraag om deze specifieke gegevens als deze nog niet zijn gegeven, dit kan niet leeg blijven.
+kolom 7 heet 'Hoogteverschil(m)' om het hoogteverschil te verwijzen dat is berekend tussen de startplaats en landingsplaats, bijvoorbeeld 801
+kolom 8 heet 'Vluchtduur' om te verwijzen naar de tijdsduur van de vlucht in minuten, bijvoorbeeld 10, als dit niet wordt genoemd, neem dan aan dat de laatste informatie van deze piloot hetzelfde is, maar als het de eerste keer is, vraag dan om deze specifieke gegevens als ze nog niet zijn gegeven.
+kolom 9 heet 'Max Hoogte(m)' om te verwijzen naar de hoogste hoogte in meters waarop de vlucht de lucht in ging, als dit niet gespecificeerd is, neem dan aan dat de maximale hoogte gelijk is aan de startplaats hoogte in meters, bijvoorbeeld 1265
+kolom 10 heet 'Max grondsnelheid(km/u)' om te verwijzen naar de hoogste grondsnelheid gemeten in kilometers per uur tijdens de vlucht, bijvoorbeeld 22-38, dit kan alleen bekend zijn bij de piloot vluchtcomputer, als dit niet wordt gegeven, gebruik dan de waarde die bekend is bij de vliegscherm specificaties
+kolom 11 heet 'Afstand XC(km)' om te verwijzen naar de totale afstand afgelegd in kilometers tijdens de vlucht, bijvoorbeeld 8, dit kan alleen bekend zijn bij de piloot vluchtcomputer, als dit niet wordt gegeven, gebruik dan de waarde 0
+kolom 12 heet 'Vluchtinfo' om te verwijzen naar de ervaring van de vlucht, de beschrijving van de vlucht, wat er gebeurde, wat verbeterd moet worden, omdat dit studenten zijn die betere piloten willen worden, vat deze tekst samen met behulp van de KISS-methode, vraag om deze specifieke gegevens als deze nog niet zijn gegeven.
+Schrijf geen uitleg. Ik zal je informatie schrijven en je zult sorteren en interpreteren in welke kolom de gegevens moeten staan en niets anders
+stel aanvullende vragen wanneer gegevens onbekend zijn, behalve voor afstand en max grondsnelheid.
