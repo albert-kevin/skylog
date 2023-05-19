@@ -1,1 +1,5 @@
 code/notebooks/.ipynb_checkpoints/report-checkpoint.ipynb
+data/input.csv
+data/bronze/input_backup_*.csv
+data/silver/*__Vluchtlogboek.xlsx
+data/silver/*_Vluchtlogboeken.zip
